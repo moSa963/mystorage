@@ -6,11 +6,6 @@ use Illuminate\Http\Resources\Json\JsonResource;
 
 class FileResource extends JsonResource
 {
-    public function __construct($resource){
-        $resource->loadMissing(['user']);
-        parent::__construct($resource);
-    }
-
     public function toArray($request)
     {
 

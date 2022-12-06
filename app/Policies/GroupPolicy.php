@@ -44,7 +44,7 @@ class GroupPolicy
             return false;
         }
 
-        $member = $group->users()->where("user_id", $user->id)->firts();
+        $member = $group->users()->where("user_id", $user->id)->first();
 
         if ($member && ! $member->is_read_only){
             return true;
