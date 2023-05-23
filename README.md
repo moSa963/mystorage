@@ -13,8 +13,6 @@ https://github.com/moSa963/mystorage/assets/65834849/5d5efa73-0568-42ce-a7ff-182
 
 * Clone this repo
 
-* Run `cd my-storage` to change directory
-
 * Run `cp .env.example .env` to create .env file from ".env.example"
 
 * Make sure to create a new database and add your database credentials to your .env file
